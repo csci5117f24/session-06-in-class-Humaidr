@@ -1,4 +1,8 @@
 from flask import Flask, render_template
+import os
+
+os.environ["DATABASE_URL"]
+
 
 app = Flask(__name__)
 
